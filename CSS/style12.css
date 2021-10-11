@@ -1,0 +1,77 @@
+body {
+  background-image: url(../img/ejercicio12..jpg);
+  background-size: 100%;
+}
+
+.btn1 {
+  color: snow;
+  background: transparent;
+  border: 2px solid seashell;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 30px 470px;
+  width: 400px;
+  height: 60px;
+  font-size: 20px;
+}
+.btn1:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+.cards {
+  display: flex;
+}
+.shop-card {
+  width: 350px;
+  background: #f5f5f5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  height: 400px;
+  margin: 10px 30px;
+}
+
+.title {
+  font-family: "Comfortaa", cursive;
+}
+
+.album {
+  font-family: "Comfortaa", cursive;
+}
+
+.cards img {
+  margin-top: 10px;
+  height: 300px;
+  width: 290px;
+}
+
+.price {
+  float: left;
+  color: darkslategray;
+  font-size: 22px;
+  font-weight: 900;
+  transition: color 0.3s ease-in-out;
+  margin-top: 27px;
+}
+
+.btn {
+  float: right;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: darkslategrey;
+  padding: 12px 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  line-height: 0.95;
+  background: none;
+  outline: none;
+  border: 1px solid darkslategray;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 17px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercico 8</title>
+    <link rel="stylesheet" href="CSS/style8.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="elementos">
+      <p class="titulo">
+        Pasa el mouse sobre el boton y la caja para que desaparezcan
+      </p>
+    </div>
+    <button id="boton" onmouseover="Desaparece()" type="button">
+      Ejecicio 8
+    </button>
+    <input
+      id="caja"
+      type="TEXT"
+      value="Ejercico 8"
+      onmouseover="Desaparece1()"
+    />
+    <p class="visible" onclick="Aparece()">
+      Click aquí para que aparezcan los elementos
+    </p>
+
+    <script src="js/ejercicio8.js"></script>
+  </body>
+</html>

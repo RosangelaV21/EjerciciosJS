@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(180, 180, 135);
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin: 50px 20px;
+}
+
+p {
+  font-size: 30px;
+  margin: 10px 40px;
+}

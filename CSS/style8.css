@@ -1,0 +1,36 @@
+body {
+  background-color: thistle;
+  font-family: "Architects Daughter", cursive;
+}
+
+.elementos {
+  margin-top: 170px;
+}
+
+.titulo {
+  margin-left: 100px;
+  font-size: 40px;
+}
+
+#boton {
+  background: linear-gradient(to right, #e24d4d, #db60db);
+  width: 190px;
+  height: 80px;
+  font-size: 30px;
+  margin-left: 300px;
+}
+
+#caja {
+  border-width: 8px;
+  border-color: #ee91ee;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  margin-left: 300px;
+  text-align: center;
+}
+
+.visible {
+  margin: 50px 260px;
+  font-size: 40px;
+}
